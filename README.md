@@ -55,42 +55,85 @@ D7 = X Y Z
 ## Figure -04 8 to 3 Decoder implementation 
 
 ### Procedure
-/* write all the steps invloved */
 
+Step1:- Open the quartus II software
 
+Step2:- Create a new project.
+
+Step3:- Name the projects such that the same name is used for mentioning the name of the module.
+
+Step4:- Develop programmes for both Encoder and Decoder using verilog programming.
+
+Step5:- Run RTL Simulation.
+
+Step6:- Create the Timing diagram.
+
+Step7:- Validate the outputs.
 
 ### PROGRAM 
-/*
+```
 Program for Endocers and Decoders  and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
-*/
+Developed by: NIVETHA K
+RegisterNumber: 212222230102
+```
+```
+Encoder:-
+
+module encoder(a,b,c,d0,d1,d2,d3,d4,d5,d6,d7);
+output a,b,c;
+input d0,d1,d2,d3,d4,d5,d6,d7;
+or(a,d4,d5,d6,d7);
+or(b,d2,d3,d6,d7);
+or(c,d1,d3,d5,d7);
+endmodule
 
 
+Decoder:-
 
-
+module decoder(d0,d1,d2,d3,d4,d5,d6,d7,a,b,c);
+output d0,d1,d2,d3,d4,d5,d6,d7;
+input a,b,c;
+assign d0 = (~a&~b&~c);
+assign d1 = (~a&~b&c);
+assign d2 = (~a&b&~c);
+assign d3 = (~a&b&c);
+assign d4 = (a&~b&~c);
+assign d5 = (a&~b&c);
+assign d6 = (a&b&~c);
+assign d7 = (a&b&c);
+endmodule
+```
 
 
 ### RTL LOGIC  
 
+Encoder
 
+![image](https://github.com/NivethaKumar30/Experiment-08-Encoders-and-decoders-/assets/119559844/9320ea74-21ea-4df3-9afc-833ef4b10f33)
 
+Decoder
 
-
-
-
+![image](https://github.com/NivethaKumar30/Experiment-08-Encoders-and-decoders-/assets/119559844/317cd580-3bb8-4884-9c13-fd071f77acea)
 
 ### TIMING DIGRAMS  
+Encoder
 
+![image](https://github.com/NivethaKumar30/Experiment-08-Encoders-and-decoders-/assets/119559844/b58a9605-68ce-4458-a37a-67ccd3961c6e)
 
+Decoder
 
-
+![image](https://github.com/NivethaKumar30/Experiment-08-Encoders-and-decoders-/assets/119559844/a05ebc94-021b-459c-bbfd-78c47635cff8)
 
 ### TRUTH TABLE 
 
+Encoder
 
+![image](https://github.com/NivethaKumar30/Experiment-08-Encoders-and-decoders-/assets/119559844/0f1ea9eb-1040-4760-a217-4a3ff79d3804)
 
+Decoder
 
-
+![image](https://github.com/NivethaKumar30/Experiment-08-Encoders-and-decoders-/assets/119559844/9e2e5a2a-4d78-439f-83cb-fff8da4da3bf)
 
 ### RESULTS 
+
+Therefore 8 to 3 Encoder and 3to8 Decoder are implemented successfully using verilog and validate its outputs
