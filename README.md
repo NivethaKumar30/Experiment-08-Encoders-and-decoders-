@@ -111,30 +111,31 @@ endmodule
 
 Encoder
 
-![image](https://github.com/NivethaKumar30/Experiment-08-Encoders-and-decoders-/assets/119559844/9320ea74-21ea-4df3-9afc-833ef4b10f33)
+![1](https://github.com/NivethaKumar30/Experiment-08-Encoders-and-decoders-/assets/119559844/c68afe9e-9a78-4335-b19b-172e7911e7cc)
 
 Decoder
 
-![image](https://github.com/NivethaKumar30/Experiment-08-Encoders-and-decoders-/assets/119559844/317cd580-3bb8-4884-9c13-fd071f77acea)
+![2](https://github.com/NivethaKumar30/Experiment-08-Encoders-and-decoders-/assets/119559844/78041cf8-eab1-469d-97ff-b0dae9d84840)
 
-### TIMING DIGRAMS  
+### TIMING DIGRAMS
+
 Encoder
 
-![image](https://github.com/NivethaKumar30/Experiment-08-Encoders-and-decoders-/assets/119559844/b58a9605-68ce-4458-a37a-67ccd3961c6e)
+![3](https://github.com/NivethaKumar30/Experiment-08-Encoders-and-decoders-/assets/119559844/b860b0e6-fe95-4fb3-be68-8844d113dc5a)
 
 Decoder
 
-![image](https://github.com/NivethaKumar30/Experiment-08-Encoders-and-decoders-/assets/119559844/a05ebc94-021b-459c-bbfd-78c47635cff8)
+![4](https://github.com/NivethaKumar30/Experiment-08-Encoders-and-decoders-/assets/119559844/e2ecc8f6-16ab-423a-a921-5ddefaea9b8b)
 
 ### TRUTH TABLE 
 
 Encoder
 
-![image](https://github.com/NivethaKumar30/Experiment-08-Encoders-and-decoders-/assets/119559844/0f1ea9eb-1040-4760-a217-4a3ff79d3804)
+![5](https://github.com/NivethaKumar30/Experiment-08-Encoders-and-decoders-/assets/119559844/8e478413-b3c8-4065-822f-e980064a4872)
 
 Decoder
 
-![image](https://github.com/NivethaKumar30/Experiment-08-Encoders-and-decoders-/assets/119559844/9e2e5a2a-4d78-439f-83cb-fff8da4da3bf)
+![6](https://github.com/NivethaKumar30/Experiment-08-Encoders-and-decoders-/assets/119559844/8d8e4e3c-a5d3-43d4-b095-b2acd5d166f5)
 
 ### RESULTS 
 
