@@ -131,7 +131,8 @@ Decoder
 
 Encoder
 
-![5](https://github.com/NivethaKumar30/Experiment-08-Encoders-and-decoders-/assets/119559844/8e478413-b3c8-4065-822f-e980064a4872)
+![image](https://github.com/NivethaKumar30/Experiment-08-Encoders-and-decoders-/assets/119559844/3846a6af-3a06-4956-a674-43cd33394d67)
+
 
 Decoder
 
